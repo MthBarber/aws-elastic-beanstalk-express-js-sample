@@ -1,8 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 8080;
-
-app.get('/', (req, res) => res.send('Hello Goose!!'));
+app.get('/', (req, res) => res.send('Hello Goose!!, We should have added manual approval now'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
